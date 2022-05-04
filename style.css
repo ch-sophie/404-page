@@ -1,0 +1,83 @@
+body {
+    background-color: cornflowerblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+
+}
+
+#main {
+    text-align: center;
+    position: relative;
+}
+
+header {
+    font-size: 200%;
+    padding-top: 200px;
+}
+
+h1 {
+    
+    background: rgb(34,193,195);
+    background: linear-gradient(80deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+        background-size: 300%;
+        font-weight: 900;
+        font-size: 300%;
+        letter-spacing: -5px;
+        text-transform: uppercase;
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent;
+        animation: animated_text 10s ease-in-out infinite;
+        -moz-animation: animated_text 10s ease-in-out infinite;
+        -webkit-animation: animated_text 10s ease-in-out infinite;
+    }
+    
+    @keyframes animated_text {
+        0% { background-position: 0px 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0px 50%; }
+    }
+
+h2 {
+    font-size: 200%;
+}
+
+
+a:link {
+    color: pink;
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(223, 70, 15);
+    text-decoration: none;
+}
+a:hover {
+    color:blueviolet;
+    text-decoration: none;
+}
+a:active {
+    color:red;
+    text-decoration: none;
+}
+
+.button {
+    font-size: 100%;
+    border: 2px solid rgb(32, 155, 221);
+    border-radius: 4px;
+    color: rgb(242, 248, 250);
+    background-color: rgba(213, 221, 229, 0.944);
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 1s;
+
+}
+.button:hover {
+    background-color: aliceblue;
+    color: whitesmoke;
+}
+
+footer {
+        text-align: end;
+        font-weight: bold;
+
+}
+

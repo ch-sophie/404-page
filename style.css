@@ -38,6 +38,7 @@ h1 {
 
 h2 {
     font-size: 200%;
+    color: whitesmoke;
 }
 
 
@@ -63,7 +64,7 @@ a:active {
     border: 2px solid rgb(32, 155, 221);
     border-radius: 5px;
     color: rgb(242, 248, 250);
-    background-color: whitesmoke;
+    background-color:darkcyan ;
     padding: 20px;
     text-decoration: none;
     display: inline-block;

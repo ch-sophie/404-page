@@ -25,9 +25,9 @@ h1 {
         text-transform: uppercase;
         -webkit-background-clip: text; 
         -webkit-text-fill-color: transparent;
-        animation: animated_text 10s ease-in-out infinite;
-        -moz-animation: animated_text 10s ease-in-out infinite;
-        -webkit-animation: animated_text 10s ease-in-out infinite;
+        animation: animated_text 7s ease-in-out infinite;
+        -moz-animation: animated_text 7s ease-in-out infinite;
+        -webkit-animation: animated_text 7s ease-in-out infinite;
     }
     
     @keyframes animated_text {
@@ -61,17 +61,17 @@ a:active {
 .button {
     font-size: 100%;
     border: 2px solid rgb(32, 155, 221);
-    border-radius: 4px;
+    border-radius: 5px;
     color: rgb(242, 248, 250);
-    background-color: rgba(213, 221, 229, 0.944);
+    background-color: whitesmoke;
     padding: 20px;
     text-decoration: none;
     display: inline-block;
     transition-duration: 1s;
-
 }
+
 .button:hover {
-    background-color: aliceblue;
+    background-color: rgb(211, 108, 24);
     color: whitesmoke;
 }
 

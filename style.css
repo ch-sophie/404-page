@@ -7,6 +7,7 @@ body {
 #main {
     text-align: center;
     position: relative;
+    display: block;
 }
 
 header {
@@ -69,6 +70,7 @@ a:active {
     text-decoration: none;
     display: inline-block;
     transition-duration: 1s;
+    cursor: wait;
 }
 
 .button:hover {
@@ -80,5 +82,26 @@ footer {
         text-align: end;
         font-weight: bold;
         font-size: 150%;
+        
 }
+
+@media screen and (max-width:300px) {
+    body {
+        background-color: red;
+        /* width: 100%; */
+    }
+ }
+ 
+ @media screen and (min-width: 301px) and (max-width:768px) {
+     body {
+         background-color: green;
+     }
+ 
+ }
+ 
+ @media screen and (min-width:768px) {
+     body {
+         text-align: center;
+     }
+ }
 

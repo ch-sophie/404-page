@@ -82,26 +82,80 @@ footer {
         text-align: end;
         font-weight: bold;
         font-size: 150%;
-        
 }
 
+
+/* media screen */
 @media screen and (max-width:300px) {
-    body {
-        background-color: red;
+        header {
+            font-size: 100%;
+            padding-top: 100px;
+        }
         /* width: 100%; */
+
+        h2 {
+            font-size: 100%;
+            color: whitesmoke;
+        }
+    
+        .button {
+            font-size: 90%;
+            border: 2px solid rgb(32, 155, 221);
+            border-radius: 5px;
+            color: rgb(242, 248, 250);
+            background-color:darkcyan ;
+            padding: 10px;
+            text-decoration: none;
+            display: inline-block;
+            transition-duration: 1s;
+            cursor: wait;
+        }
+     
+        footer {
+            text-align: center;
+            margin: 20px;
+            font-weight: bold;
+            font-size: 100%;
+        
+        }
+    }
+ 
+ 
+ @media screen and (min-width: 301px) and (max-width:768px) {
+
+     header {
+        font-size: 120%;
+        padding-top: 150px;
+    }
+
+    h2 {
+        font-size: 100%;
+        color: whitesmoke;
+    }
+
+    .button {
+        font-size: 90%;
+        border: 2px solid rgb(32, 155, 221);
+        border-radius: 5px;
+        color: rgb(242, 248, 250);
+        background-color:darkcyan ;
+        padding: 10px;
+        text-decoration: none;
+        display: inline-block;
+        transition-duration: 1s;
+        cursor: wait;
+    }
+ 
+    footer {
+        text-align: center;
+        margin: 30px;
+        font-weight: bold;
+        font-size: 100%;
+    
     }
  }
  
- @media screen and (min-width: 301px) and (max-width:768px) {
-     body {
-         background-color: green;
-     }
- 
- }
- 
  @media screen and (min-width:768px) {
-     body {
-         text-align: center;
-     }
+     
  }
 
